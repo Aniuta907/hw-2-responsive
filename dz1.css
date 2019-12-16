@@ -1,0 +1,128 @@
+#cwm {
+  background-color: rgb(220, 61, 102);
+  }
+
+  #weather{
+    background-color: rgb(189, 53, 89);
+    min-height: 50%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .day{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 25%;
+    min-height: 40%;
+  }
+
+  .im{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    width: 40%;
+    height: 20%;
+  }
+
+  #div1{
+    min-height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #img_cwm{
+    width: 90%;
+    height: 60%;
+  }
+
+  #brooklyn {
+  background-color: rgb(97, 57, 246);
+  }
+
+  #san_Jose {
+  background-color: rgb(189, 84, 205);
+  }
+
+  #seattle {
+  background-color: rgb(77, 209, 132);
+  }
+
+  #chicago {
+  background-color: rgb(6, 179, 219);
+  }
+
+
+  #portland {
+  background-color: rgb(227, 182, 61);
+  }
+  *{
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body{
+height: 100vh;
+width: 100%;
+background-image: url('img/background.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.center {    
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  padding: 10px; 
+  flex-wrap: wrap;
+  }
+
+
+.container{ 
+width: 50%;
+display: flex;
+align-content: center;
+flex-direction: row;
+align-items: stretch;  
+justify-content: center;
+flex-wrap: wrap;
+margin:0 auto;
+}
+
+.item{
+  display: flex;
+  flex-basis: 30%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 33%;
+}
+
+label{
+display: block;
+font-size: 16px;
+font-family: Arial, sans-serif;
+color: rgb(255, 255, 255);
+font-weight: bold;
+text-transform: uppercase;
+line-height: 0.72;
+text-align: left;
+margin-top: 12%;
+}
+
+
+.text_day {
+display: block;
+font-size: 12px;
+font-family: "AvenirNext";
+color: rgb(255, 255, 255);
+font-weight: bold;
+text-transform: uppercase;
+line-height: 0.96;
+text-align: left;
+text-shadow: 0px 1px 0px rgba(220, 61, 102, 0.75);
+margin-top: 5%;
+}
