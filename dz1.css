@@ -63,7 +63,6 @@
   }
 
 body{
-height: 100vh;
 width: 100%;
 background-image: url('img/background.png');
 background-repeat: no-repeat;
@@ -100,6 +99,30 @@ margin:0 auto;
   height: 34%;
   max-height: 100%;
 }
+
+
+@media (min-width: 576px) {
+  .item {
+      width: 50%;
+      }
+ }
+ 
+  @media (min-width: 904px) {
+  .container {
+     max-width: 904px;
+     width: 70%;
+  }
+  .item {
+      width: 33%;
+      }
+ }
+
+@media (min-height: 1076px) {
+  .item {
+      height: 15%;
+      }
+ }
+
 
 label{
 display: block;
