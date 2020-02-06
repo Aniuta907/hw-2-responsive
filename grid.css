@@ -35,30 +35,24 @@ body {
   min-width: 100px;
 }
 
+.text_day {
+  font-family: "AvenirNext";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.96;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(220, 61, 102, 0.75);
+  margin-top: 5%;
+}
+
 @media screen and (max-width: 2000px) {
   label {
     font-size: 16px;
-    font-family: Arial, sans-serif;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 0.72;
-    text-align: center;
-    margin-top: 12%;
   }
-
   .text_day {
     font-size: 12px;
-    font-family: "AvenirNext";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 0.96;
-    text-align: left;
-    text-shadow: 0px 1px 0px rgba(220, 61, 102, 0.75);
-    margin-top: 5%;
   }
-
   .img_cwm {
     width: 100%;
   }
@@ -77,24 +71,9 @@ body {
   }
   label {
     font-size: 14px;
-    font-family: Arial, sans-serif;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 0.72;
-    text-align: center;
-    margin-top: 12%;
   }
   .text_day {
     font-size: 10px;
-    font-family: "AvenirNext";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 0.96;
-    text-align: left;
-    text-shadow: 0px 1px 0px rgba(220, 61, 102, 0.75);
-    margin-top: 5%;
   }
   .day {
     height: 50%;
@@ -108,13 +87,6 @@ body {
   }
   label {
     font-size: 12px;
-    font-family: Arial, sans-serif;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 0.72;
-    text-align: center;
-    margin-top: 12%;
   }
   .img1 {
     width: 40%;
@@ -124,14 +96,6 @@ body {
   }
   .text_day {
     font-size: 10px;
-    font-family: "AvenirNext";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 0.96;
-    text-align: left;
-    text-shadow: 0px 1px 0px rgba(220, 61, 102, 0.75);
-    margin-top: 5%;
   }
 }
 
